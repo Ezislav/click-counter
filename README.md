@@ -14,7 +14,11 @@ curl -X POST -H "Content-Type: application/json" \
 -d '{"from":"2025-10-22T22:40:00+03:00","to":"2025-10-22T23:20:00+03:00"}' \
 http://localhost:3000/stats
 
+![alt text](image-2.png)
+
 Getting banner statistics:
 curl -X POST -H "Content-Type: application/json" \
 -d '{"from":"2025-10-22T23:30:00+03:00","to":"2025-10-22T23:40:00+03:00"}' \
 http://localhost:3000/stats/1
+
+![alt text](image-1.png)
